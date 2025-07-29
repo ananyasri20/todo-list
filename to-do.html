@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="to-dolist.css">
+</head>
+<body>
+  <div id="items"></div>
+
+  <template id="itemTemplate">
+    <div class="item">
+      <input type="checkbox" class="item-completed">
+      <input type="text" class="item-description" placeholder="to do item...">
+      <button class="delete-button">🗑</button>
+    </div>
+  </template>
+
+  <button id="add">ADD ITEMS</button>
+  <script src="to-main.js"></script>
+</body>
+</html>
